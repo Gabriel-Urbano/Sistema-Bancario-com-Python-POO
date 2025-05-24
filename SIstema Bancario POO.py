@@ -561,6 +561,7 @@ def main():
     _nome='Gabriel de Souza',
     _data_nascimento=datetime.strptime('14/09/2002', '%d/%m/%Y').date()
 )
+    Cliente.adicionar_na_lista(cliente1)
     conta1 = ContaCorrente.nova_conta(cliente1, '001')
     cliente1.adicionar_conta(conta1)
 
